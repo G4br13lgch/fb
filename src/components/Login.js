@@ -18,8 +18,7 @@ function Login(){
             
         )     
     }
-    const login=async()=>{
-        if(usuario.empl)
+    const login=async()=>{        
          await axios.post(url,JSON.stringify({tipo:1,email,pass}))
     }
  
